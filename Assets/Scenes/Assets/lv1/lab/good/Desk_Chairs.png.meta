@@ -1,0 +1,1369 @@
+fileFormatVersion: 2
+guid: e5ff7a8f965fd9c42a55f115d8a5f365
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6784212982459118440
+    second: Desk_Chairs_0
+  - first:
+      213: -441202887133162912
+    second: Desk_Chairs_1
+  - first:
+      213: 3239293457330997687
+    second: Desk_Chairs_2
+  - first:
+      213: 970445062705863478
+    second: Desk_Chairs_3
+  - first:
+      213: 3151651637928399493
+    second: Desk_Chairs_4
+  - first:
+      213: -1712653199628224048
+    second: Desk_Chairs_5
+  - first:
+      213: 591451249945558550
+    second: Desk_Chairs_6
+  - first:
+      213: 3110333690832869612
+    second: Desk_Chairs_7
+  - first:
+      213: 589792192956931989
+    second: Desk_Chairs_8
+  - first:
+      213: 6944194707648172204
+    second: Desk_Chairs_9
+  - first:
+      213: -36398036301867269
+    second: Desk_Chairs_10
+  - first:
+      213: 8643047480678325195
+    second: Desk_Chairs_11
+  - first:
+      213: -2240161868575505117
+    second: Desk_Chairs_12
+  - first:
+      213: -506873483132239302
+    second: Desk_Chairs_13
+  - first:
+      213: -91526534814312989
+    second: Desk_Chairs_14
+  - first:
+      213: 2543657318621549285
+    second: Desk_Chairs_15
+  - first:
+      213: 7276283492594337341
+    second: Desk_Chairs_16
+  - first:
+      213: -4521118225483363753
+    second: Desk_Chairs_17
+  - first:
+      213: -8957766490014859464
+    second: Desk_Chairs_18
+  - first:
+      213: -1562528437749111628
+    second: Desk_Chairs_19
+  - first:
+      213: -4925141229123498117
+    second: Desk_Chairs_20
+  - first:
+      213: 5547999338827665993
+    second: Desk_Chairs_21
+  - first:
+      213: 7268225222909958382
+    second: Desk_Chairs_22
+  - first:
+      213: 8038101433913068376
+    second: Desk_Chairs_23
+  - first:
+      213: 6354412702827845398
+    second: Desk_Chairs_24
+  - first:
+      213: -1506517527313899579
+    second: Desk_Chairs_25
+  - first:
+      213: 1302479897522791771
+    second: Desk_Chairs_26
+  - first:
+      213: 5759589036269480291
+    second: Desk_Chairs_27
+  - first:
+      213: -5155214053802464131
+    second: Desk_Chairs_28
+  - first:
+      213: 3468988945836403947
+    second: Desk_Chairs_29
+  - first:
+      213: -7858151176285052662
+    second: Desk_Chairs_30
+  - first:
+      213: 6313785876417624088
+    second: Desk_Chairs_31
+  - first:
+      213: -7166590548109270950
+    second: Desk_Chairs_32
+  - first:
+      213: -457568376240031117
+    second: Desk_Chairs_33
+  - first:
+      213: 3936726615497822384
+    second: Desk_Chairs_34
+  - first:
+      213: -3504271368318267277
+    second: Desk_Chairs_35
+  - first:
+      213: -6510545416579957557
+    second: Desk_Chairs_36
+  - first:
+      213: 5730786573589562093
+    second: Desk_Chairs_37
+  - first:
+      213: -6981268217873031028
+    second: Desk_Chairs_38
+  - first:
+      213: -8012696224765971781
+    second: Desk_Chairs_39
+  - first:
+      213: 6374587144261098020
+    second: Desk_Chairs_40
+  - first:
+      213: 4876901988926082578
+    second: Desk_Chairs_41
+  - first:
+      213: 3449226635522429638
+    second: Desk_Chairs_42
+  - first:
+      213: -5161364299304975678
+    second: Desk_Chairs_43
+  - first:
+      213: -6057377947600196856
+    second: Desk_Chairs_44
+  - first:
+      213: 7313321134769726987
+    second: Desk_Chairs_45
+  - first:
+      213: 2165043686808659416
+    second: Desk_Chairs_46
+  - first:
+      213: 1780653066471060021
+    second: Desk_Chairs_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Desk_Chairs_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 688
+        width: 111
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c4eeb9c32a9d1a0800000000000000
+      internalID: -6784212982459118440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 680
+        width: 98
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0621d8ecf4880e9f0800000000000000
+      internalID: -441202887133162912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 671
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b90677ac3844fc20800000000000000
+      internalID: 3239293457330997687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 671
+        width: 42
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b5d9494a6b77d00800000000000000
+      internalID: 970445062705863478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_4
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 679
+        width: 40
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582108e677aecbb20800000000000000
+      internalID: 3151651637928399493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 678
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d939bc2dfe6b38e0800000000000000
+      internalID: -1712653199628224048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_6
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 671
+        width: 48
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e37f637c1453800800000000000000
+      internalID: 591451249945558550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_7
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 673
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8d50733002a2b20800000000000000
+      internalID: 3110333690832869612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_8
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 672
+        width: 38
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f1f78efdc5f2800800000000000000
+      internalID: 589792192956931989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 597
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca054807b4cbe5060800000000000000
+      internalID: 6944194707648172204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 578
+        width: 98
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf694b7cd20be7ff0800000000000000
+      internalID: -36398036301867269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 480
+        width: 98
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb9aae04e542f770800000000000000
+      internalID: 8643047480678325195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_12
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 575
+        width: 42
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3258e2046a859e0e0800000000000000
+      internalID: -2240161868575505117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_13
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 579
+        width: 30
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3286dba04937f8f0800000000000000
+      internalID: -506873483132239302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_14
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 579
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5dedcf915dabef0800000000000000
+      internalID: -91526534814312989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_15
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 575
+        width: 46
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e292cabad2ec4320800000000000000
+      internalID: 2543657318621549285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_16
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 578
+        width: 39
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36cf1df84d8af460800000000000000
+      internalID: 7276283492594337341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_17
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 577
+        width: 36
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a05868de2c141c0800000000000000
+      internalID: -4521118225483363753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 432
+        width: 58
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f34cd66de9fa380800000000000000
+      internalID: -8957766490014859464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_19
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 434
+        width: 54
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4a48c1aa8c05ae0800000000000000
+      internalID: -1562528437749111628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 383
+        width: 48
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f8679852266abb0800000000000000
+      internalID: -4925141229123498117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 479
+        width: 42
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942dcec01047efc40800000000000000
+      internalID: 5547999338827665993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_22
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 483
+        width: 30
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8151fd45cedd460800000000000000
+      internalID: 7268225222909958382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_23
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 483
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b42fc9aa21d8f60800000000000000
+      internalID: 8038101433913068376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_24
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 479
+        width: 46
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6179844afa86f2850800000000000000
+      internalID: 6354412702827845398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_25
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 482
+        width: 39
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf1e807a46c71be0800000000000000
+      internalID: -1506517527313899579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_26
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 481
+        width: 36
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55eee2e096531210800000000000000
+      internalID: 1302479897522791771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_27
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 335
+        width: 59
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369a31f76bb2eef40800000000000000
+      internalID: 5759589036269480291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 290
+        width: 79
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ca00ea1200578b0800000000000000
+      internalID: -5155214053802464131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_29
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 345
+        width: 65
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bece5561113542030800000000000000
+      internalID: 3468988945836403947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_30
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 393
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a012632b32d32f290800000000000000
+      internalID: -7858151176285052662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_31
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 399
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81830cf7dc21f9750800000000000000
+      internalID: 6313785876417624088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_32
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 395
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a506641edd72b8c90800000000000000
+      internalID: -7166590548109270950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_33
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 395
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ab2c17cf366a9f0800000000000000
+      internalID: -457568376240031117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_34
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 400
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0d296cfff02a630800000000000000
+      internalID: 3936726615497822384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_35
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 401
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37051d6c1c35e5fc0800000000000000
+      internalID: -3504271368318267277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 96
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc34be1075e5a5a0800000000000000
+      internalID: -6510545416579957557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_37
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 158
+        width: 92
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de242629608d78f40800000000000000
+      internalID: 5730786573589562093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_38
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 154
+        width: 87
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8024ff4b8d8d1f90800000000000000
+      internalID: -6981268217873031028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_39
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 147
+        width: 99
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2f5b59c3f2dc090800000000000000
+      internalID: -8012696224765971781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_40
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 143
+        width: 48
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a5473db35177850800000000000000
+      internalID: 6374587144261098020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_41
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 194
+        width: 54
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ec55e158c3ea340800000000000000
+      internalID: 4876901988926082578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_42
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 192
+        width: 58
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c25128a95d1edf20800000000000000
+      internalID: 3449226635522429638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_43
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 47
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c24b8f04862f58b0800000000000000
+      internalID: -5161364299304975678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 49
+        width: 98
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b610b99dedfeba0800000000000000
+      internalID: -6057377947600196856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_45
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 50
+        width: 65
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b066e4e03d22e7560800000000000000
+      internalID: 7313321134769726987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_46
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 50
+        width: 79
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5ae6323c7cb0e10800000000000000
+      internalID: 2165043686808659416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk_Chairs_47
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 95
+        width: 59
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532b737978626b810800000000000000
+      internalID: 1780653066471060021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

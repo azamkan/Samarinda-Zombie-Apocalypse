@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -6,6 +7,8 @@ public class PlayerController : MonoBehaviour
 
     private PlayerHealth playerHealth;
     private PlayerInventory playerInventory;
+
+    private Animator anim;
 
     private void Start()
     {
@@ -17,12 +20,19 @@ public class PlayerController : MonoBehaviour
             attackHitbox.SetActive(false);
     }
 
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            anim.SetBool("attack",  true);
             attackHitbox.SetActive(true);
-            Invoke(nameof(DisableAttackHitbox), 0.3f); // ubah durasi sesuai animasi
+            Invoke(nameof(DisableAttackHitbox), 0.55f); // ubah durasi sesuai animasi
+            //anim.SetBool("attack", false);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
@@ -39,6 +49,7 @@ public class PlayerController : MonoBehaviour
     private void DisableAttackHitbox()
     {
         if (attackHitbox != null)
-            attackHitbox.SetActive(false);
+        attackHitbox.SetActive(false);
+        anim.SetBool("attack", false);
     }
 }

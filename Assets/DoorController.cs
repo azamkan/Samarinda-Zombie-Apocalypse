@@ -7,13 +7,23 @@ public class DoorController : MonoBehaviour
     private bool isPlayerInRange = false;
     public bool isDoorUnlocked;
 
-    // Misal player punya script PlayerInventory yang punya variabel hasKey
+    private GameObject ui;
     private PlayerInventory playerInventory;
+
+    [Header("Pesan dari Inspector")]
+    [TextArea]
+    public string lockedMessage = "Pintu terkunci! Cari kunci.";
+    [TextArea]
+    public string hasKeyMessage = "Tekan 'F' untuk membuka pintu (kunci tersedia).";
+    [TextArea]
+    public string unlockedMessage = "Tekan 'F' untuk membuka pintu.";
 
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         playerInventory = player.GetComponent<PlayerInventory>();
+
+        ui = GameObject.Find("UIManager");
     }
 
     private void Update()
@@ -24,22 +34,19 @@ public class DoorController : MonoBehaviour
             {
                 if (isDoorUnlocked)
                 {
-                    // Pintu sudah terbuka, langsung teleport
                     TeleportPlayer();
                 }
                 else
                 {
-                    // Pintu belum terbuka, cek apakah player punya kunci
                     if (playerInventory != null && playerInventory.hasKey)
                     {
-                        // Player punya kunci, buka pintu
                         isDoorUnlocked = true;
-                        playerInventory.UseKey(); // Hapus kunci dari player
+                        playerInventory.UseKey();
                         TeleportPlayer();
                     }
                     else
                     {
-                        Debug.Log("Pintu terkunci! Kamu butuh kunci.");
+                        ui.GetComponent<PlayerUIController>().SetTaskText(lockedMessage);
                     }
                 }
             }
@@ -50,6 +57,19 @@ public class DoorController : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            if (isDoorUnlocked)
+            {
+                ui.GetComponent<PlayerUIController>().SetTaskText(unlockedMessage);
+            }
+            else if (playerInventory.hasKey)
+            {
+                ui.GetComponent<PlayerUIController>().SetTaskText(hasKeyMessage);
+            }
+            else
+            {
+                ui.GetComponent<PlayerUIController>().SetTaskText(lockedMessage);
+            }
+
             isPlayerInRange = true;
         }
     }
@@ -59,6 +79,7 @@ public class DoorController : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isPlayerInRange = false;
+            ui.GetComponent<PlayerUIController>().SetTaskText(""); // Kosongkan perintah
         }
     }
 

@@ -21,6 +21,10 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float gravityScale = 3f;
     private Rigidbody2D rb;
 
+    private Animator anim; // Tambahkan animator
+
+    private bool isDead = false;
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -28,6 +32,8 @@ public class EnemyAI : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.linearDamping = linearDrag;
         rb.gravityScale = gravityScale;
+
+        anim = GetComponent<Animator>(); // Ambil Animator
     }
 
     private void Update()
@@ -37,6 +43,11 @@ public class EnemyAI : MonoBehaviour
         if (distance <= detectRange)
         {
             FollowPlayer();
+            anim.SetBool("run", true); // Berlari jika dalam jarak
+        }
+        else
+        {
+            anim.SetBool("run", false); // Tidak berlari jika di luar jarak
         }
     }
 
@@ -66,9 +77,11 @@ public class EnemyAI : MonoBehaviour
         rb.AddForce(knockbackDir * knockbackForce, ForceMode2D.Impulse);
     }
 
-    private void Die()
+    public void Die()
     {
-        Destroy(gameObject);
+        isDead = true;
+        anim.SetBool("die", true); // Mainkan animasi mati
+        Destroy(gameObject,0.5f);
     }
 
     private void Flip()

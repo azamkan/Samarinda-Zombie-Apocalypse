@@ -9,9 +9,12 @@ public class PhoneInteraction : MonoBehaviour
     private GameObject player;
     private bool isPlayerInRange = false;
 
+    private GameObject ui;
+
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        ui = GameObject.Find("UIManager");
     }
 
     private void Update()
@@ -28,6 +31,7 @@ public class PhoneInteraction : MonoBehaviour
                     else
                     {
                         Debug.Log("generator belum menyala.");
+                        ui.GetComponent<PlayerUIController>().SetTaskText("generator belum menyala.");
                     }
                 }
             }
@@ -53,6 +57,9 @@ public class PhoneInteraction : MonoBehaviour
         //interactionUI?.SetActive(false);
         Debug.Log("Help is on the way!");
         // Trigger final wave atau heli bisa dipanggil di sini
+        FindObjectOfType<FinalWaveManager>()?.StartFinalWaveTimer();
+        ui.GetComponent<PlayerUIController>().SetTaskText("Berhasil memanggil bantuan");
+
     }
 }
 

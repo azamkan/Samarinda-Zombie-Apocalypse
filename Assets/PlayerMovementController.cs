@@ -14,6 +14,7 @@ public class PlayerMovementController : MonoBehaviour
     private Rigidbody2D rb;
     private float moveInput;
     private bool isFacingRight = true;
+    private Animator anim;
 
     void Start()
     {
@@ -22,9 +23,15 @@ public class PlayerMovementController : MonoBehaviour
         rb.gravityScale = gravityScale;
     }
 
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     void Update()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
+        anim.SetBool("run", moveInput != 0);
 
         // Flip handling
         if (moveInput > 0 && !isFacingRight)

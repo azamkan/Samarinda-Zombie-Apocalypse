@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 4089576332899603412}
   - component: {fileID: 4135671738256627902}
   - component: {fileID: 8275806190996464030}
-  m_Layer: 0
+  - component: {fileID: 5883419509775860034}
+  m_Layer: 6
   m_Name: Zombie
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1647503409804030583}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.38, y: -2.58, z: 0.008903263}
+  m_LocalPosition: {x: 8.49, y: -2.47, z: 0.008903263}
   m_LocalScale: {x: 4.11, y: 4.11, z: 4.11}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -167,13 +168,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a0a18da8b29c434ab4d58b6986b248f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  detectRange: 5
+  moveSpeed: 4
+  detectRange: 10
   maxHealth: 50
   currentHealth: 0
   knockbackForce: 10
   linearDrag: 4
   gravityScale: 3
+--- !u!95 &5883419509775860034
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647503409804030583}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 441e38a1d97e8b24998cc5826d5d578c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3131554282266842303
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,7 +208,7 @@ GameObject:
   - component: {fileID: 1420470578984885198}
   - component: {fileID: 3826780113358235020}
   - component: {fileID: 5592770909643793940}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttackHitboxEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}

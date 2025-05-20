@@ -7,6 +7,13 @@ public class AttackHitboxEnemy : MonoBehaviour
     public float attackCooldown = 1.5f;
     private float lastAttackTime;
 
+    private Animator anim;
+
+    private void Start()
+    {
+        anim = GetComponentInParent<Animator>(); // Animator ada di parent (Enemy)
+    }
+
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player") && Time.time >= lastAttackTime + attackCooldown)
@@ -17,6 +24,10 @@ public class AttackHitboxEnemy : MonoBehaviour
                 playerHealth.TakeDamage(damage);
                 playerHealth.AddInfection(infection);
                 lastAttackTime = Time.time;
+                if (anim != null)
+                {
+                    anim.SetTrigger("attack"); // Gunakan trigger agar animasi hanya 1x main
+                }
             }
         }
     }
