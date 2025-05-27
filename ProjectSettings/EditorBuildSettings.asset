@@ -26,6 +26,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level/Level4.unity
     guid: 1628d08ac29f12b48a1280cad0f1bcf2
+  - enabled: 1
+    path: Assets/Scenes/gameover.unity
+    guid: 775616a5e00418e4989e5ae7386bb77e
+  - enabled: 1
+    path: Assets/Scenes/opening.unity
+    guid: 99544c2076203594b8eceef3bdbc4c54
+  - enabled: 1
+    path: Assets/Scenes/win.unity
+    guid: b1f914914f42239479cbccbaec66aef3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

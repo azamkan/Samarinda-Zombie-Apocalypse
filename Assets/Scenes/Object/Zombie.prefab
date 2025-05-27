@@ -175,6 +175,10 @@ MonoBehaviour:
   knockbackForce: 10
   linearDrag: 4
   gravityScale: 3
+  attackRange: 2
+  attackHitbox: {fileID: 0}
+  attackCooldown: 3.5
+  attackDuration: 0.6
 --- !u!95 &5883419509775860034
 Animator:
   serializedVersion: 7
@@ -290,4 +294,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10
   infection: 20
-  attackCooldown: 1.5

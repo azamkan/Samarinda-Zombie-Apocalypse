@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FinalWaveManager : MonoBehaviour
 {
@@ -93,6 +94,7 @@ public class FinalWaveManager : MonoBehaviour
 
         Debug.Log("You Win! Player has been rescued.");
         // Tambahkan scene win atau UI di sini jika perlu
+        SceneManager.LoadScene("win");
     }
 
     public void LoseGame()

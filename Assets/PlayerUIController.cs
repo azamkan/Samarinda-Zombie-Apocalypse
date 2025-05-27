@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class PlayerUIController : MonoBehaviour
 {
-    public TMP_Text hpText;
-    public TMP_Text infectionText;
     public TMP_Text foodText;
     public TMP_Text medText;
     public TMP_Text keyText;
@@ -25,8 +23,6 @@ public class PlayerUIController : MonoBehaviour
     {
         if (playerHealth == null || playerInventory == null) return;
 
-        hpText.text = $"HP: {playerHealth.currentHealth}/{playerHealth.maxHealth}";
-        infectionText.text = $"Infeksi: {playerHealth.currentInfection}/{playerHealth.maxInfection}";
         foodText.text = $"Makanan: {playerInventory.foodCount}";
         medText.text = $"Obat: {playerInventory.medicineCount}";
         keyText.text = $"Kunci: {(playerInventory.hasKey ? "Ada" : "Tidak Ada")}";

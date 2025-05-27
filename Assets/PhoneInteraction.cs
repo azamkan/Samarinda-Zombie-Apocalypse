@@ -59,6 +59,7 @@ public class PhoneInteraction : MonoBehaviour
         // Trigger final wave atau heli bisa dipanggil di sini
         FindObjectOfType<FinalWaveManager>()?.StartFinalWaveTimer();
         ui.GetComponent<PlayerUIController>().SetTaskText("Berhasil memanggil bantuan");
+        FindObjectOfType<HelicopterController>()?.ArriveHelicopter();
 
     }
 }

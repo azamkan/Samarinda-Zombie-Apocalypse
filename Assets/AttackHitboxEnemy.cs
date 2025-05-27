@@ -2,32 +2,18 @@ using UnityEngine;
 
 public class AttackHitboxEnemy : MonoBehaviour
 {
-    public int damage = 10;
-    public int infection = 20;
-    public float attackCooldown = 1.5f;
-    private float lastAttackTime;
+    public int damage = 1;
+    public int infection = 1;
 
-    private Animator anim;
-
-    private void Start()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        anim = GetComponentInParent<Animator>(); // Animator ada di parent (Enemy)
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player") && Time.time >= lastAttackTime + attackCooldown)
+        if (collision.CompareTag("Player"))
         {
             PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(damage);
                 playerHealth.AddInfection(infection);
-                lastAttackTime = Time.time;
-                if (anim != null)
-                {
-                    anim.SetTrigger("attack"); // Gunakan trigger agar animasi hanya 1x main
-                }
             }
         }
     }

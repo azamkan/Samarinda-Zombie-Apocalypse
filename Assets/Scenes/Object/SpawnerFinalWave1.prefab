@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d26cda2e67eee144b0572557af271fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombiePrefab: {fileID: 1647503409804030583, guid: 844f2664d71a5634b8b3d64f10ea4cfa, type: 3}
-  zombiesPerWave: 3
-  spawnInterval: 40
+  zombiePrefab: {fileID: 1121173209450562339, guid: fa4ef33687761a14db3ad02117e47353, type: 3}
+  zombiesPerWave: 5
+  spawnInterval: 20
   minSpeed: 5.5
   maxSpeed: 8.5
