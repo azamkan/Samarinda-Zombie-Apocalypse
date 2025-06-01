@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
+    AudioManager audioManager;
+
     public enum ItemType
     {
         Key,
@@ -15,10 +17,17 @@ public class ItemPickup : MonoBehaviour
     private bool isPlayerInRange = false;
     private PlayerInventory playerInventory;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
+
     private void Update()
     {
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.E))
         {
+            audioManager.PlaySFX(audioManager.ambilbarang);
             PickupItem();
         }
     }

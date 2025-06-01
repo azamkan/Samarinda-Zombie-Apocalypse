@@ -34,6 +34,7 @@ public class VideoEndSceneLoader : MonoBehaviour
     public void SkipVideo()
     {
         videoPlayer.Stop(); // Opsional, berhentikan video
+        videoPlayer.time = 0.0f;
         LoadNextScene();
     }
 

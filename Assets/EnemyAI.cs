@@ -32,6 +32,13 @@ public class EnemyAI : MonoBehaviour
     private Animator anim;
     private bool isDead = false;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -87,6 +94,7 @@ public class EnemyAI : MonoBehaviour
 
     private void FollowPlayer()
     {
+        audioManager.PlayZombieSound();
         Vector2 direction = (player.position - transform.position).normalized;
         transform.position += (Vector3)direction * moveSpeed * Time.deltaTime;
 

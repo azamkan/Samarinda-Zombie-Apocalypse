@@ -50,7 +50,7 @@ public class FinalWaveManager : MonoBehaviour
             {
                 lastLoggedSecond = currentSecond;
                 Debug.Log("Final wave ends in: " + currentSecond + " seconds");
-                ui.GetComponent<PlayerUIController>().SetTaskText("Segera Menuju Taman dalam: " + currentSecond + " detik");
+                ui.GetComponent<PlayerUIController>().setFInalWaves("Segera Menuju Taman dalam: " + currentSecond + " detik");
             }
 
             yield return null;

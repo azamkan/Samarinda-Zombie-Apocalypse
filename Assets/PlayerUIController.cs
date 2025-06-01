@@ -8,6 +8,7 @@ public class PlayerUIController : MonoBehaviour
     public TMP_Text keyText;
     public TMP_Text fuelText;
     public TMP_Text taskText;
+    public TMP_Text finalwaves;
 
     private PlayerHealth playerHealth;
     private PlayerInventory playerInventory;
@@ -23,14 +24,18 @@ public class PlayerUIController : MonoBehaviour
     {
         if (playerHealth == null || playerInventory == null) return;
 
-        foodText.text = $"Makanan: {playerInventory.foodCount}";
-        medText.text = $"Obat: {playerInventory.medicineCount}";
-        keyText.text = $"Kunci: {(playerInventory.hasKey ? "Ada" : "Tidak Ada")}";
-        fuelText.text = $"Bensin: {(playerInventory.hasFuel ? "Ada" : "Tidak Ada")}";
+        foodText.text = $"{playerInventory.foodCount} X, tekan 1 untuk menggunakan";
+        medText.text = $"{playerInventory.medicineCount} X, tekan 2 untuk menggunakan";
+        keyText.text = $"{(playerInventory.hasKey ? "1" : "0")}";
+        fuelText.text = $"{(playerInventory.hasFuel ? "1" : "0")}";
     }
 
     public void SetTaskText(string message)
     {
         taskText.text = message;
+    }
+    public void setFInalWaves(string message)
+    {
+        finalwaves.text = message;
     }
 }

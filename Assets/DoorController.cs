@@ -18,12 +18,19 @@ public class DoorController : MonoBehaviour
     [TextArea]
     public string unlockedMessage = "Tekan 'F' untuk membuka pintu.";
 
+    [Header("--- SFX confirm ---")]
+    public bool suaraPintuAda;
+
+    AudioManager audioManager;
+
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         playerInventory = player.GetComponent<PlayerInventory>();
 
         ui = GameObject.Find("UIManager");
+
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     private void Update()
@@ -85,6 +92,10 @@ public class DoorController : MonoBehaviour
 
     private void TeleportPlayer()
     {
+        if (suaraPintuAda)
+        {
+            audioManager.PlaySFX(audioManager.pintu);
+        }
         player.transform.position = destination.position;
     }
 }

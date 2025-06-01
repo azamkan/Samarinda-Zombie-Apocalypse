@@ -11,10 +11,14 @@ public class PhoneInteraction : MonoBehaviour
 
     private GameObject ui;
 
+    AudioManager audioManager;
+
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         ui = GameObject.Find("UIManager");
+
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     private void Update()
@@ -59,6 +63,7 @@ public class PhoneInteraction : MonoBehaviour
         // Trigger final wave atau heli bisa dipanggil di sini
         FindObjectOfType<FinalWaveManager>()?.StartFinalWaveTimer();
         ui.GetComponent<PlayerUIController>().SetTaskText("Berhasil memanggil bantuan");
+        audioManager.PlayHelicopterSound();
         FindObjectOfType<HelicopterController>()?.ArriveHelicopter();
 
     }
