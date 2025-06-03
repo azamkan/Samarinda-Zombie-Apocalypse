@@ -541,6 +541,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2878522212686104601, guid: 9818ac8e56dc3524193a655353f0df80, type: 3}
   m_PrefabInstance: {fileID: 1519304935720070826}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &367826799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 367826800}
+  m_Layer: 0
+  m_Name: sample-bg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &367826800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367826799}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.95, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &374648172 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8115138999880282964, guid: e1889df9b24cc7a45b12265eb7dc32d2, type: 3}
@@ -3448,6 +3479,7 @@ MonoBehaviour:
   lockedMessage: Pintu terkunci! Cari kunci.
   hasKeyMessage: Tekan 'F' untuk membuka pintu (kunci tersedia).
   unlockedMessage: Tekan 'F' untuk membuka pintu.
+  suaraPintuAda: 0
 --- !u!50 &2038701640
 Rigidbody2D:
   serializedVersion: 5
@@ -3709,7 +3741,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4653912360456502468, guid: d47b2d87dee4e89498041cfdd79ac01e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 4653912360456502468, guid: d47b2d87dee4e89498041cfdd79ac01e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4556,3 +4588,4 @@ SceneRoots:
   - {fileID: 5366302806865735095}
   - {fileID: 104582641}
   - {fileID: 8571496822712539540}
+  - {fileID: 367826800}

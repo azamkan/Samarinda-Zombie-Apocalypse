@@ -13,6 +13,8 @@ public class PlayerUIController : MonoBehaviour
     private PlayerHealth playerHealth;
     private PlayerInventory playerInventory;
 
+    private bool hasMoved = false;
+
     private void Start()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -24,8 +26,24 @@ public class PlayerUIController : MonoBehaviour
     {
         if (playerHealth == null || playerInventory == null) return;
 
-        foodText.text = $"{playerInventory.foodCount} X, tekan 1 untuk menggunakan";
-        medText.text = $"{playerInventory.medicineCount} X, tekan 2 untuk menggunakan";
+        // Deteksi pergerakan awal
+        if (!hasMoved && (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D)))
+        {
+            hasMoved = true;
+        }
+
+        // Ubah UI berdasarkan apakah player sudah pernah bergerak
+        if (!hasMoved)
+        {
+            foodText.text = $"{playerInventory.foodCount} X, tekan 1 untuk menggunakan";
+            medText.text = $"{playerInventory.medicineCount} X, tekan 2 untuk menggunakan";
+        }
+        else
+        {
+            foodText.text = $"{playerInventory.foodCount} X";
+            medText.text = $"{playerInventory.medicineCount} X";
+        }
+
         keyText.text = $"{(playerInventory.hasKey ? "1" : "0")}";
         fuelText.text = $"{(playerInventory.hasFuel ? "1" : "0")}";
     }
