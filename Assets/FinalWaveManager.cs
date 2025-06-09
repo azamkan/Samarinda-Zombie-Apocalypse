@@ -8,6 +8,8 @@ public class FinalWaveManager : MonoBehaviour
     public SpawnerFinalWave[] spawners;
     public HelicopterController helicopterController;
 
+    public bool isChp4;
+
     private bool waveStarted = false;
     private bool gameEnded = false;
     private Coroutine countdownCoroutine;
@@ -94,7 +96,15 @@ public class FinalWaveManager : MonoBehaviour
 
         Debug.Log("You Win! Player has been rescued.");
         // Tambahkan scene win atau UI di sini jika perlu
-        SceneManager.LoadScene("win");
+
+        if (isChp4)
+        {
+            SceneManager.LoadScene("ending");
+        }
+        else
+        {
+            SceneManager.LoadScene("win");
+        }
     }
 
     public void LoseGame()

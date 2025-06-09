@@ -10,9 +10,12 @@ public class GeneratorInteraction : MonoBehaviour
     private PlayerInventory playerInventory;
     private bool isPlayerInRange = false;
 
+    private GameObject ui;
+
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        ui = GameObject.Find("UIManager");
         playerInventory = player.GetComponent<PlayerInventory>();
     }
     private void Update()
@@ -30,6 +33,7 @@ public class GeneratorInteraction : MonoBehaviour
                 else
                 {
                     Debug.Log("generator belum menyala.");
+                    ui.GetComponent<PlayerUIController>().SetTaskText("generator belum menyala.");
                 }
             }
         }
@@ -55,6 +59,7 @@ public class GeneratorInteraction : MonoBehaviour
         isActive = true;
         //interactionUI?.SetActive(false);
         Debug.Log("Generator is now active!");
+        ui.GetComponent<PlayerUIController>().SetTaskText("generator menyala, segera panggil bantuan.");
         // Bisa ditambahkan animasi, suara, dll
     }
 

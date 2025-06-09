@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 114532422}
   - component: {fileID: 114532421}
   - component: {fileID: 114532420}
+  - component: {fileID: 114532423}
   m_Layer: 5
   m_Name: btn_kembali
   m_TagString: Untagged
@@ -331,6 +332,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114532418}
   m_CullTransparentMesh: 1
+--- !u!114 &114532423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114532418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12068fc2fc11aed48b44c6ff7c033938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sizeDifference: 1.2
 --- !u!1 &123382220
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,7 +505,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5020590516904814734, guid: a818bae6679e6144d9ece75219d7299f, type: 3}
+  m_Sprite: {fileID: -418081060531236423, guid: eedd7db27e5fc2a42b262238f4796170, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
