@@ -486,7 +486,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Buildings_Colour2_0: -3544102367511405302
+      Buildings_Colour2_1: -6417800878874479463
+      Buildings_Colour2_10: 4011492235960883457
+      Buildings_Colour2_11: -2230044720154521124
+      Buildings_Colour2_12: -2577504514588395667
+      Buildings_Colour2_2: 8620266067875716094
+      Buildings_Colour2_3: 5244224980410469512
+      Buildings_Colour2_4: -3669178479950338130
+      Buildings_Colour2_5: 6737468432224697391
+      Buildings_Colour2_6: -8233717543011486902
+      Buildings_Colour2_7: -8810089656076621935
+      Buildings_Colour2_8: 3968142697561067902
+      Buildings_Colour2_9: -9087493206290053319
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

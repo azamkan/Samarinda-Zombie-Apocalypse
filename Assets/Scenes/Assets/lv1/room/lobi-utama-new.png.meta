@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lobi-utama-new_0: -5751506369265447257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

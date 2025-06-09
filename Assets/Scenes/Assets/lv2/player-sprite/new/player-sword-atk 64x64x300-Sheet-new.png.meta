@@ -311,7 +311,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      player-sword-atk 64x64x300-Sheet-new_0: 6084728304711233574
+      player-sword-atk 64x64x300-Sheet-new_1: -7440961532079547085
+      player-sword-atk 64x64x300-Sheet-new_2: -4361813425421025861
+      player-sword-atk 64x64x300-Sheet-new_3: 8161142262289348430
+      player-sword-atk 64x64x300-Sheet-new_4: -7787761465792459282
+      player-sword-atk 64x64x300-Sheet-new_5: 7868633430120027812
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dinding-blood_0: -418492617225875912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

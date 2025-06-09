@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      door-EXIT-bloods_0: 4376790512374418629
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

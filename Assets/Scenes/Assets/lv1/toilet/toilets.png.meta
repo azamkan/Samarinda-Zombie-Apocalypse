@@ -486,7 +486,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      toilets_0: -623011867530282199
+      toilets_1: -531617166274719348
+      toilets_10: 496278236144448847
+      toilets_11: 5732019020791052273
+      toilets_12: -8204510945733198558
+      toilets_2: 5571339515281002431
+      toilets_3: 405411418726464202
+      toilets_4: 3251041923069802040
+      toilets_5: -2144316905000079775
+      toilets_6: 6071933242470983072
+      toilets_7: -3504506307847802486
+      toilets_8: -7818797470203114640
+      toilets_9: -5261383134145432475
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

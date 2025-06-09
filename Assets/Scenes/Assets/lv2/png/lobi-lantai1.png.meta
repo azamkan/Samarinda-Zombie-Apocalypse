@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lobi-lantai1_0: -4904001759787534767
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

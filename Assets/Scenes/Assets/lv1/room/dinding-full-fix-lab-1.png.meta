@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dinding-full-fix-lab-1_0: -6169363516640784248
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

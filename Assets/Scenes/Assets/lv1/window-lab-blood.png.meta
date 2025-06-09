@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      window-lab-blood_0: 1412120515290023077
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

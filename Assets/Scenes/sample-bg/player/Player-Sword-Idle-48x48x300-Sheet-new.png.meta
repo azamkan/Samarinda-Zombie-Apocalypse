@@ -411,7 +411,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Player-Sword-Idle-48x48x300-Sheet-new_0: 1948607663850104384
+      Player-Sword-Idle-48x48x300-Sheet-new_1: -2440404450882571068
+      Player-Sword-Idle-48x48x300-Sheet-new_2: 1354919033002510399
+      Player-Sword-Idle-48x48x300-Sheet-new_3: -269475815822734295
+      Player-Sword-Idle-48x48x300-Sheet-new_4: -7984525060558671523
+      Player-Sword-Idle-48x48x300-Sheet-new_5: 2504953526691151550
+      Player-Sword-Idle-48x48x300-Sheet-new_6: 4245524341980861024
+      Player-Sword-Idle-48x48x300-Sheet-new_7: -7317954517205039140
+      Player-Sword-Idle-48x48x300-Sheet-new_8: -7928234333839108101
+      Player-Sword-Idle-48x48x300-Sheet-new_9: 5423177596643656250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

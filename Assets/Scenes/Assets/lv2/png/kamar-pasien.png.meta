@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kamar-pasien_0: 7261283087847268205
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

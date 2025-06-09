@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      door-lab-bloods - Copy_0: 2916744919706574163
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
